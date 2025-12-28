@@ -1,0 +1,4 @@
+[console_scripts]
+goal_publisher = turtle_control_thiago.goal_publisher:main
+turtle_control = turtle_control_thiago.turtle_control:main
+

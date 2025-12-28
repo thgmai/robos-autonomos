@@ -1,0 +1,26 @@
+[1.471s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_thiago': PYTHONPATH=/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_thiago build --build-base /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build install --record /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log --single-version-externally-managed install_data
+[2.053s] running egg_info
+[2.055s] writing ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/PKG-INFO
+[2.055s] writing dependency_links to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/dependency_links.txt
+[2.055s] writing entry points to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/entry_points.txt
+[2.056s] writing requirements to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/requires.txt
+[2.056s] writing top-level names to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/top_level.txt
+[2.060s] reading manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.062s] copying turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+[2.063s] running install
+[2.064s] running install_lib
+[2.065s] copying /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+[2.066s] byte-compiling /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago/turtle_control.py to turtle_control.cpython-310.pyc
+[2.068s] running install_data
+[2.068s] running install_egg_info
+[2.068s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (turtle_control.py, line 185)
+[2.074s] removing '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago-0.0.0-py3.10.egg-info' (and everything under it)
+[2.075s] Copying ../../build/turtle_control_thiago/turtle_control_thiago.egg-info to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago-0.0.0-py3.10.egg-info
+[2.077s] running install_scripts
+[2.122s] Installing goal_publisher script to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/turtle_control_thiago
+[2.122s] Installing turtle_control script to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/turtle_control_thiago
+[2.123s] writing list of installed files to '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log'
+[2.194s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_thiago' returned '0': PYTHONPATH=/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_thiago build --build-base /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build install --record /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[1.486s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_thiago': AMENT_PREFIX_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim LD_LIBRARY_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_thiago build --build-base /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build install --record /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log --single-version-externally-managed install_data
+[2.108s] running egg_info
+[2.109s] creating ../../build/turtle_control_thiago/turtle_control_thiago.egg-info
+[2.109s] writing ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/PKG-INFO
+[2.110s] writing dependency_links to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/dependency_links.txt
+[2.110s] writing entry points to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/entry_points.txt
+[2.111s] writing requirements to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/requires.txt
+[2.111s] writing top-level names to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/top_level.txt
+[2.111s] writing manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+[2.114s] reading manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+[2.116s] writing manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+[2.116s] running build
+[2.116s] running build_py
+[2.116s] creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build
+[2.117s] creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib
+[2.117s] creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+[2.117s] copying turtle_control_thiago/__init__.py -> /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+[2.117s] copying turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+[2.117s] running install
+[2.118s] running install_lib
+[2.120s] creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+[2.120s] copying /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago/__init__.py -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+[2.120s] copying /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+[2.121s] byte-compiling /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago/__init__.py to __init__.cpython-310.pyc
+[2.122s] byte-compiling /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago/turtle_control.py to turtle_control.cpython-310.pyc
+[2.124s] running install_data
+[2.125s] creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index
+[2.125s] creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index
+[2.125s] creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index/packages
+[2.125s] copying resource/turtle_control_thiago -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index/packages
+[2.125s] copying package.xml -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/turtle_control_thiago
+[2.126s] running install_egg_info
+[2.131s] Copying ../../build/turtle_control_thiago/turtle_control_thiago.egg-info to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago-0.0.0-py3.10.egg-info
+[2.133s] running install_scripts
+[2.177s] Installing turtle_control = turtle_control_thiago.turtle_control:maingoal_publisher script to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/turtle_control_thiago
+[2.178s] writing list of installed files to '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log'
+[2.246s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_thiago' returned '0': AMENT_PREFIX_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim LD_LIBRARY_PATH=/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control_thiago build --build-base /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build install --record /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log --single-version-externally-managed install_data

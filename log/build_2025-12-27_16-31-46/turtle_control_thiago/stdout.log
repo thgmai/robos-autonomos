@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/turtle_control_thiago/turtle_control_thiago.egg-info
+writing ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/requires.txt
+writing top-level names to ../../build/turtle_control_thiago/turtle_control_thiago.egg-info/top_level.txt
+writing manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_control_thiago/turtle_control_thiago.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build
+creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib
+creating /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+copying turtle_control_thiago/__init__.py -> /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+copying turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago
+running install
+running install_lib
+creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+copying /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago/__init__.py -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+copying /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/build/lib/turtle_control_thiago/turtle_control.py -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago
+byte-compiling /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago/turtle_control.py to turtle_control.cpython-310.pyc
+running install_data
+creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index
+creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index
+creating /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index/packages
+copying resource/turtle_control_thiago -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/ament_index/resource_index/packages
+copying package.xml -> /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/share/turtle_control_thiago
+running install_egg_info
+Copying ../../build/turtle_control_thiago/turtle_control_thiago.egg-info to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages/turtle_control_thiago-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_control = turtle_control_thiago.turtle_control:maingoal_publisher script to /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/turtle_control_thiago
+writing list of installed files to '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_thiago/install.log'
