@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000802] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000895] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000941] (-) JobUnselected: {'identifier': 'turtle_control_thiago'}
+[0.001003] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001603] (-) EventReactorShutdown: {}

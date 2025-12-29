@@ -1,0 +1,219 @@
+[0.022s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces
+[0.056s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.516s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.538s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.237s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.395s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.451s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.451s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.452s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.452s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.500s] -- Found PythonExtra: .so  
+[2.617s] -- Added test 'lint_cmake' to check CMake code style
+[2.621s] -- Added test 'xmllint' to check XML markup files
+[2.633s] -- Configuring done
+[2.711s] -- Generating done
+[2.739s] -- Build files have been written to: /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces
+[2.758s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces
+[2.763s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces -- -j2 -l2
+[2.848s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.872s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.994s] [  9%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o[0m
+[4.052s] [  9%] Built target action_tutorials_interfaces__cpp
+[4.116s] [  9%] Built target ament_cmake_python_copy_action_tutorials_interfaces
+[4.137s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.314s] [ 16%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so[0m
+[4.417s] [ 16%] Built target action_tutorials_interfaces__rosidl_generator_c
+[4.440s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.876s] [ 22%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[5.456s] [ 25%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[6.069s] [ 29%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so[0m
+[6.164s] [ 29%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp
+[6.185s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.086s] [ 35%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[7.097s] [ 38%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.305s] [ 38%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.979s] running egg_info
+[7.983s] creating action_tutorials_interfaces.egg-info
+[7.983s] writing action_tutorials_interfaces.egg-info/PKG-INFO
+[7.984s] writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt
+[7.984s] writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt
+[7.986s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[7.989s] reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[7.993s] writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'
+[8.080s] [ 38%] Built target ament_cmake_python_build_action_tutorials_interfaces_egg
+[8.106s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.706s] [ 45%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.894s] [ 45%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp
+[8.917s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.156s] [ 51%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[9.867s] [ 54%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[9.986s] [ 58%] [32m[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.053s] [ 58%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c
+[10.075s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.267s] [ 64%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[10.487s] [ 64%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c
+[10.789s] [ 67%] [32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o[0m
+[10.895s] [ 70%] [32m[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so[0m
+[10.984s] [ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_c
+[11.034s] [ 70%] Built target action_tutorials_interfaces
+[11.078s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.811s] [ 74%] Built target action_tutorials_interfaces__py
+[12.856s] [ 77%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o[0m
+[13.203s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so[0m
+[13.301s] [ 80%] Built target action_tutorials_interfaces__rosidl_generator_py
+[13.347s] [ 83%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.350s] [ 87%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.674s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.714s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.773s] [ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext
+[13.808s] [ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.818s] [ 96%] [32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[14.090s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.184s] [100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext
+[14.210s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces -- -j2 -l2
+[14.232s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces
+[14.251s] -- Install configuration: ""
+[14.252s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces
+[14.252s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.252s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.253s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.h
+[14.254s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.254s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.h
+[14.254s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.h
+[14.255s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.c
+[14.255s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.h
+[14.255s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[14.255s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.256s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh
+[14.256s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv
+[14.256s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so
+[14.257s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""
+[14.257s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.258s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.258s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.258s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[14.258s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[14.258s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.259s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.259s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[14.259s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.260s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.260s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.260s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[14.260s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.c
+[14.261s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[14.261s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.261s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so
+[14.261s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.262s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so
+[14.262s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""
+[14.262s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.263s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.263s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp
+[14.263s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.263s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.hpp
+[14.264s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp
+[14.264s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp
+[14.264s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp
+[14.265s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[14.265s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.265s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.265s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.265s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.266s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[14.266s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/dds_fastrtps
+[14.266s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg
+[14.266s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.267s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.267s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.267s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces
+[14.267s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action
+[14.267s] -- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail
+[14.268s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp
+[14.268s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[14.268s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.268s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.269s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so
+[14.269s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.270s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh
+[14.270s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv
+[14.270s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info
+[14.270s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.271s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.271s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.271s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.272s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces
+[14.272s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py
+[14.272s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c
+[14.272s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.273s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action
+[14.273s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py
+[14.273s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py
+[14.273s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci_s.c
+[14.274s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.274s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so
+[14.274s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.275s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.275s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.368s] Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces'...
+[14.369s] Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py'...
+[14.369s] Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action'...
+[14.369s] Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py'...
+[14.369s] Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py'...
+[14.382s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.383s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.383s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.385s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.385s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.387s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.387s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so
+[14.388s] -- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so" to ""
+[14.388s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl
+[14.389s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action
+[14.389s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces
+[14.390s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces
+[14.390s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh
+[14.391s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv
+[14.391s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh
+[14.391s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv
+[14.391s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash
+[14.392s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh
+[14.392s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh
+[14.393s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv
+[14.393s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv
+[14.393s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces
+[14.394s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport.cmake
+[14.394s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.395s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.395s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.395s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.396s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.396s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake
+[14.397s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.397s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cppExport.cmake
+[14.397s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.398s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.398s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.398s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.399s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake
+[14.399s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.399s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport.cmake
+[14.400s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.400s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake
+[14.400s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.401s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.401s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[14.402s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[14.402s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.402s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.403s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake
+[14.403s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake
+[14.403s] -- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml
+[14.409s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces

@@ -1,0 +1,43 @@
+[0.023s] Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces': /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces
+[0.049s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.319s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.319s]   add_custom_target called with invalid target name
+[0.319s]   "src/action_tutorials_interfaces_uninstall".  Target names may not contain
+[0.320s]   a slash.  Use ADD_CUSTOM_COMMAND to generate files.
+[0.320s] Call Stack (most recent call first):
+[0.320s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.320s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.320s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.320s]   CMakeLists.txt:9 (find_package)
+[0.320s] 
+[0.321s] [0m
+[0.343s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.462s] Error parsing '/home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces/package.xml':
+[0.571s] Traceback (most recent call last):
+[0.571s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.572s]     main()
+[0.572s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.572s]     raise e
+[0.572s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.572s]     package = parse_package_string(
+[0.573s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.573s]     pkg.validate(warnings=warnings)
+[0.573s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.573s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.573s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces/package.xml':
+[0.574s] Package name "src/action_tutorials_interfaces" does not follow naming conventions
+[0.615s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.615s]   execute_process(/usr/bin/python3
+[0.615s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.616s]   /home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces/package.xml
+[0.616s]   /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces/ament_cmake_core/package.cmake)
+[0.616s]   returned error code 1
+[0.616s] Call Stack (most recent call first):
+[0.616s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.616s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.616s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.617s] 
+[0.617s] [0m
+[0.617s] -- Configuring incomplete, errors occurred!
+[0.617s] See also "/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces/CMakeFiles/CMakeOutput.log".
+[0.624s] Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces' returned '1': /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces

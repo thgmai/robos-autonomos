@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.001854] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001959] (-) JobUnselected: {'identifier': 'turtle_control_thiago'}
+[0.002004] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002105] (action_tutorials_interfaces) JobQueued: {'identifier': 'action_tutorials_interfaces', 'dependencies': OrderedDict()}
+[0.002208] (action_tutorials_interfaces) JobStarted: {'identifier': 'action_tutorials_interfaces'}
+[0.018141] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'cmake'}
+[0.019409] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/thiago/Documentos/Robotica/ros2_ws/src/action_tutorials_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces'], 'cwd': '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'thiago'), ('LC_TIME', 'es_UY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('OLDPWD', '/home/thiago'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_UY.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thiago'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-Satellite-L645:@/tmp/.ICE-unix/1484,unix/thiago-Satellite-L645:/tmp/.ICE-unix/1484'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6db62677_95b6_47d0_980d_28cad4279c22'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_UY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.057901] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099703] (-) TimerEvent: {}
+[0.200166] (-) TimerEvent: {}
+[0.300720] (-) TimerEvent: {}
+[0.337884] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.400891] (-) TimerEvent: {}
+[0.501410] (-) TimerEvent: {}
+[0.518302] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.525178] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.540428] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601606] (-) TimerEvent: {}
+[0.630858] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701786] (-) TimerEvent: {}
+[0.802281] (-) TimerEvent: {}
+[0.902774] (-) TimerEvent: {}
+[1.003313] (-) TimerEvent: {}
+[1.103927] (-) TimerEvent: {}
+[1.204408] (-) TimerEvent: {}
+[1.238739] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.304602] (-) TimerEvent: {}
+[1.405107] (-) TimerEvent: {}
+[1.505788] (-) TimerEvent: {}
+[1.606264] (-) TimerEvent: {}
+[1.691915] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.706431] (-) TimerEvent: {}
+[1.807064] (-) TimerEvent: {}
+[1.907606] (-) TimerEvent: {}
+[2.008122] (-) TimerEvent: {}
+[2.108609] (-) TimerEvent: {}
+[2.209119] (-) TimerEvent: {}
+[2.309666] (-) TimerEvent: {}
+[2.334639] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.394208] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.397472] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.410630] (-) TimerEvent: {}
+[2.452996] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.453444] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.453652] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.453826] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.501569] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.510752] (-) TimerEvent: {}
+[2.611334] (-) TimerEvent: {}
+[2.618778] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.623424] (action_tutorials_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.635015] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.711496] (-) TimerEvent: {}
+[2.712535] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.741168] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces\n'}
+[2.759137] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[2.760936] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'build'}
+[2.764302] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'thiago'), ('LC_TIME', 'es_UY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('OLDPWD', '/home/thiago'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_UY.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thiago'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-Satellite-L645:@/tmp/.ICE-unix/1484,unix/thiago-Satellite-L645:/tmp/.ICE-unix/1484'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6db62677_95b6_47d0_980d_28cad4279c22'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_UY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.811681] (-) TimerEvent: {}
+[2.850339] (action_tutorials_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.873650] (action_tutorials_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.911807] (-) TimerEvent: {}
+[3.012516] (-) TimerEvent: {}
+[3.113211] (-) TimerEvent: {}
+[3.214725] (-) TimerEvent: {}
+[3.315266] (-) TimerEvent: {}
+[3.416813] (-) TimerEvent: {}
+[3.517444] (-) TimerEvent: {}
+[3.619739] (-) TimerEvent: {}
+[3.720834] (-) TimerEvent: {}
+[3.821265] (-) TimerEvent: {}
+[3.921894] (-) TimerEvent: {}
+[3.995620] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_tutorials_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[4.022662] (-) TimerEvent: {}
+[4.054094] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] Built target action_tutorials_interfaces__cpp\n'}
+[4.117655] (action_tutorials_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_action_tutorials_interfaces\n'}
+[4.122812] (-) TimerEvent: {}
+[4.138590] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.223653] (-) TimerEvent: {}
+[4.316397] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.324762] (-) TimerEvent: {}
+[4.418726] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 16%] Built target action_tutorials_interfaces__rosidl_generator_c\n'}
+[4.425660] (-) TimerEvent: {}
+[4.442070] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.525780] (-) TimerEvent: {}
+[4.627841] (-) TimerEvent: {}
+[4.728272] (-) TimerEvent: {}
+[4.828791] (-) TimerEvent: {}
+[4.877755] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.928921] (-) TimerEvent: {}
+[5.030786] (-) TimerEvent: {}
+[5.131317] (-) TimerEvent: {}
+[5.231837] (-) TimerEvent: {}
+[5.334645] (-) TimerEvent: {}
+[5.435207] (-) TimerEvent: {}
+[5.458306] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_tutorials_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.535369] (-) TimerEvent: {}
+[5.635928] (-) TimerEvent: {}
+[5.737933] (-) TimerEvent: {}
+[5.838636] (-) TimerEvent: {}
+[5.941246] (-) TimerEvent: {}
+[6.041954] (-) TimerEvent: {}
+[6.070576] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.143810] (-) TimerEvent: {}
+[6.165647] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 29%] Built target action_tutorials_interfaces__rosidl_typesupport_cpp\n'}
+[6.187358] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.243933] (-) TimerEvent: {}
+[6.346315] (-) TimerEvent: {}
+[6.446973] (-) TimerEvent: {}
+[6.547572] (-) TimerEvent: {}
+[6.648847] (-) TimerEvent: {}
+[6.752052] (-) TimerEvent: {}
+[6.852731] (-) TimerEvent: {}
+[6.953408] (-) TimerEvent: {}
+[7.054088] (-) TimerEvent: {}
+[7.087456] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[7.099112] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.154245] (-) TimerEvent: {}
+[7.257034] (-) TimerEvent: {}
+[7.306779] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.357407] (-) TimerEvent: {}
+[7.458078] (-) TimerEvent: {}
+[7.559870] (-) TimerEvent: {}
+[7.660505] (-) TimerEvent: {}
+[7.762833] (-) TimerEvent: {}
+[7.863486] (-) TimerEvent: {}
+[7.964250] (-) TimerEvent: {}
+[7.981085] (action_tutorials_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.985095] (action_tutorials_interfaces) StdoutLine: {'line': b'creating action_tutorials_interfaces.egg-info\n'}
+[7.985403] (action_tutorials_interfaces) StdoutLine: {'line': b'writing action_tutorials_interfaces.egg-info/PKG-INFO\n'}
+[7.985595] (action_tutorials_interfaces) StdoutLine: {'line': b'writing dependency_links to action_tutorials_interfaces.egg-info/dependency_links.txt\n'}
+[7.985799] (action_tutorials_interfaces) StdoutLine: {'line': b'writing top-level names to action_tutorials_interfaces.egg-info/top_level.txt\n'}
+[7.987828] (action_tutorials_interfaces) StdoutLine: {'line': b"writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'\n"}
+[7.991323] (action_tutorials_interfaces) StdoutLine: {'line': b"reading manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'\n"}
+[7.994819] (action_tutorials_interfaces) StdoutLine: {'line': b"writing manifest file 'action_tutorials_interfaces.egg-info/SOURCES.txt'\n"}
+[8.064689] (-) TimerEvent: {}
+[8.081688] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_action_tutorials_interfaces_egg\n'}
+[8.108158] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.164830] (-) TimerEvent: {}
+[8.265495] (-) TimerEvent: {}
+[8.368950] (-) TimerEvent: {}
+[8.469644] (-) TimerEvent: {}
+[8.572083] (-) TimerEvent: {}
+[8.672900] (-) TimerEvent: {}
+[8.708277] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.773054] (-) TimerEvent: {}
+[8.874929] (-) TimerEvent: {}
+[8.896382] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 45%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.918945] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.977631] (-) TimerEvent: {}
+[9.078273] (-) TimerEvent: {}
+[9.158045] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_tutorials_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[9.178416] (-) TimerEvent: {}
+[9.279053] (-) TimerEvent: {}
+[9.379651] (-) TimerEvent: {}
+[9.481520] (-) TimerEvent: {}
+[9.582230] (-) TimerEvent: {}
+[9.684886] (-) TimerEvent: {}
+[9.785648] (-) TimerEvent: {}
+[9.869296] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_tutorials_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[9.885796] (-) TimerEvent: {}
+[9.987695] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.988074] (-) TimerEvent: {}
+[10.055186] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 58%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.076623] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.090639] (-) TimerEvent: {}
+[10.191251] (-) TimerEvent: {}
+[10.268765] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.291394] (-) TimerEvent: {}
+[10.392034] (-) TimerEvent: {}
+[10.489130] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 64%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.492149] (-) TimerEvent: {}
+[10.592598] (-) TimerEvent: {}
+[10.693073] (-) TimerEvent: {}
+[10.791440] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_tutorials_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[10.793190] (-) TimerEvent: {}
+[10.893635] (-) TimerEvent: {}
+[10.896710] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_tutorials_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.985607] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces__rosidl_typesupport_c\n'}
+[10.995682] (-) TimerEvent: {}
+[11.035706] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_tutorials_interfaces\n'}
+[11.079680] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.095838] (-) TimerEvent: {}
+[11.196323] (-) TimerEvent: {}
+[11.296850] (-) TimerEvent: {}
+[11.397315] (-) TimerEvent: {}
+[11.497803] (-) TimerEvent: {}
+[11.598269] (-) TimerEvent: {}
+[11.698749] (-) TimerEvent: {}
+[11.799215] (-) TimerEvent: {}
+[11.899670] (-) TimerEvent: {}
+[12.000636] (-) TimerEvent: {}
+[12.101113] (-) TimerEvent: {}
+[12.201609] (-) TimerEvent: {}
+[12.302174] (-) TimerEvent: {}
+[12.402637] (-) TimerEvent: {}
+[12.503094] (-) TimerEvent: {}
+[12.603557] (-) TimerEvent: {}
+[12.704076] (-) TimerEvent: {}
+[12.804664] (-) TimerEvent: {}
+[12.812555] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_tutorials_interfaces__py\n'}
+[12.858450] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_tutorials_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[12.904845] (-) TimerEvent: {}
+[13.005384] (-) TimerEvent: {}
+[13.105950] (-) TimerEvent: {}
+[13.205060] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.206057] (-) TimerEvent: {}
+[13.302668] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_tutorials_interfaces__rosidl_generator_py\n'}
+[13.306651] (-) TimerEvent: {}
+[13.348772] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.351958] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.406802] (-) TimerEvent: {}
+[13.507399] (-) TimerEvent: {}
+[13.609778] (-) TimerEvent: {}
+[13.676439] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.709941] (-) TimerEvent: {}
+[13.715816] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.774758] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.809845] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 93%] Built target action_tutorials_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.810209] (-) TimerEvent: {}
+[13.819932] (action_tutorials_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/action_tutorials_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.910416] (-) TimerEvent: {}
+[14.011001] (-) TimerEvent: {}
+[14.092404] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.111185] (-) TimerEvent: {}
+[14.186461] (action_tutorials_interfaces) StdoutLine: {'line': b'[100%] Built target action_tutorials_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.211755] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[14.212570] (-) TimerEvent: {}
+[14.213507] (action_tutorials_interfaces) JobProgress: {'identifier': 'action_tutorials_interfaces', 'progress': 'install'}
+[14.233519] (action_tutorials_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces'], 'cwd': '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'thiago'), ('LC_TIME', 'es_UY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('OLDPWD', '/home/thiago'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_UY.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thiago'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-Satellite-L645:@/tmp/.ICE-unix/1484,unix/thiago-Satellite-L645:/tmp/.ICE-unix/1484'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6db62677_95b6_47d0_980d_28cad4279c22'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_UY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/Documentos/Robotica/ros2_ws/build/action_tutorials_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[14.253442] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.253931] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_tutorials_interfaces\n'}
+[14.254259] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.254577] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.254874] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.h\n'}
+[14.255976] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.256195] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.h\n'}
+[14.256462] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.h\n'}
+[14.256661] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.c\n'}
+[14.256842] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__functions.h\n'}
+[14.257082] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg\n'}
+[14.257282] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.257532] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.sh\n'}
+[14.257839] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/library_path.dsv\n'}
+[14.258259] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[14.259099] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.259437] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.259647] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.259833] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.260000] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[14.260275] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg\n'}
+[14.260451] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.260648] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.261116] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.261449] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.261689] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.261875] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.262070] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[14.262365] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.c\n'}
+[14.262640] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg\n'}
+[14.262831] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.262999] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.263341] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.263664] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[14.264211] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.264506] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.264760] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.265015] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/fibonacci.hpp\n'}
+[14.265188] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.265437] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.hpp\n'}
+[14.265646] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[14.265913] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[14.266200] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[14.266400] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg\n'}
+[14.266824] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.267025] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.267315] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.267485] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.267791] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.267962] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/dds_fastrtps\n'}
+[14.268121] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg\n'}
+[14.268303] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.268582] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.268919] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.269094] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces\n'}
+[14.269274] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action\n'}
+[14.269431] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail\n'}
+[14.269710] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[14.269998] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/include/action_tutorials_interfaces/action_tutorials_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.270160] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.270517] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.270820] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.271353] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.271653] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.sh\n'}
+[14.271920] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/pythonpath.dsv\n'}
+[14.272171] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info\n'}
+[14.272514] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.272826] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.273087] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.273337] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.273596] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces\n'}
+[14.273899] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py\n'}
+[14.274113] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.274334] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.274612] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action\n'}
+[14.274870] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py\n'}
+[14.275127] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py\n'}
+[14.275373] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci_s.c\n'}
+[14.275766] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.276061] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/libaction_tutorials_interfaces__rosidl_generator_py.so\n'}
+[14.276412] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/_action_tutorials_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.276752] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.277043] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.312665] (-) TimerEvent: {}
+[14.370293] (action_tutorials_interfaces) StdoutLine: {'line': b"Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces'...\n"}
+[14.370820] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/__init__.py'...\n"}
+[14.371011] (action_tutorials_interfaces) StdoutLine: {'line': b"Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action'...\n"}
+[14.371175] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/__init__.py'...\n"}
+[14.371338] (action_tutorials_interfaces) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action/_fibonacci.py'...\n"}
+[14.383791] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.384752] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.385400] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.386825] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.387438] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.388639] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages/action_tutorials_interfaces/action_tutorials_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.388922] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so\n'}
+[14.390127] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib/libaction_tutorials_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.390387] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.idl\n'}
+[14.390884] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/action/Fibonacci.action\n'}
+[14.391427] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/package_run_dependencies/action_tutorials_interfaces\n'}
+[14.391956] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/parent_prefix_path/action_tutorials_interfaces\n'}
+[14.392235] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.sh\n'}
+[14.392650] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.392934] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.sh\n'}
+[14.393304] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/environment/path.dsv\n'}
+[14.393585] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.bash\n'}
+[14.393933] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.sh\n'}
+[14.394281] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.zsh\n'}
+[14.394607] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/local_setup.dsv\n'}
+[14.394876] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv\n'}
+[14.395417] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/ament_index/resource_index/packages/action_tutorials_interfaces\n'}
+[14.395907] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.396247] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.396695] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.397032] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.397471] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.397772] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.398207] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.398609] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.398886] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.399300] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.399606] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.400042] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.400335] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.400766] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.401060] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.401505] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.401871] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/export_action_tutorials_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.402216] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.402572] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.402972] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.403254] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.403867] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.404158] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.404519] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.404806] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig.cmake\n'}
+[14.405053] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake/action_tutorials_interfacesConfig-version.cmake\n'}
+[14.405438] (action_tutorials_interfaces) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.xml\n'}
+[14.410895] (action_tutorials_interfaces) CommandEnded: {'returncode': 0}
+[14.412758] (-) TimerEvent: {}
+[14.467004] (action_tutorials_interfaces) JobEnded: {'identifier': 'action_tutorials_interfaces', 'rc': 0}
+[14.468526] (-) EventReactorShutdown: {}
