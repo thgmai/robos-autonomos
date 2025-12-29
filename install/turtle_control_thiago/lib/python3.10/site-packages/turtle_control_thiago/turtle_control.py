@@ -47,11 +47,11 @@ class TurtleControl(Node):
         self.alpha = 0.0    # Ângulo em coordenadas polares
         
         # Parâmetros do controle
-        self.k_omega = 1.5     # Ganho para velocidade angular
-        self.v_max = 1.0       # Velocidade linear máxima
-        self.threshold = 0.1   # Limiar de convergência (metros)
-        self.v_lim = 2.0       # Limite de velocidade linear
-        self.w_lim = 2.0       # Limite de velocidade angular
+        self.k_omega = 2.5     # Ganho para velocidade angular
+        self.v_max = 2.0       # Velocidade linear máxima
+        self.threshold = 0.05  # Limiar de convergência (metros)
+        self.v_lim = 3.0       # Limite de velocidade linear
+        self.w_lim = 3.0       # Limite de velocidade angular
         
         # Flags de recebimento
         self.has_pose = False
@@ -128,10 +128,8 @@ class TurtleControl(Node):
         
         # Coordenadas polares
         self.rho = math.sqrt(self.x_error**2 + self.y_error**2)  # Distância
-        if self.x_error != 0:
-            self.alpha = math.atan2(self.y_error, self.x_error) - self.current_theta  # Ângulo
-        else:
-            self.alpha = math.pi/2 - self.current_theta
+        self.alpha = math.atan2(self.y_error, self.x_error) - self.current_theta  # Ângulo
+        self.alpha = math.atan2(math.sin(self.alpha), math.cos(self.alpha))       # Normalizar
         
         # Log para debugging
         self.get_logger().debug(
@@ -176,9 +174,7 @@ class TurtleControl(Node):
         self.publisher_.publish(cmd_vel_msg)
         
         # Log para monitoramento
-        self.get_logger().debug(
-            f'Publicando: v={v:.2f}, w={w:.2f}'
-        )
+        self.get_logger().debug(f'Publicando: v={v:.2f}, w={w:.2f}')
         
         # Log periódico
         if hasattr(self, 'counter'):

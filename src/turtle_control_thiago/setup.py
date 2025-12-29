@@ -28,7 +28,7 @@ setup(
     entry_points={
         'console_scripts': [
             'turtle_control = turtle_control_thiago.turtle_control:main',
-            'goal_publisher = turtle_control_thiago.goal_publisher:main',
+            'waypoint_manager = turtle_control_thiago.waypoint_manager:main',
         ],
     },
 )
