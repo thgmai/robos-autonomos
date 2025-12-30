@@ -1,0 +1,232 @@
+[0.267s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'turtle_control_action']
+[0.268s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['turtle_control_action'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d9232062aa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d92320620e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d92320620e0>>, mixin_verb=('build',))
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.685s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thiago/Documentos/Robotica/ros2_ws'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_tutorials_interfaces) by extension 'ros'
+[0.721s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'ros'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['cmake', 'python']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'cmake'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'python'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extensions ['python_setup_py']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/fibonacci_action_client_server) by extension 'python_setup_py'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.732s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extension 'colcon_pkg'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extensions ['colcon_meta']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extension 'colcon_meta'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extensions ['ros']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_action) by extension 'ros'
+[0.734s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control_action' with type 'ros.ament_cmake' and name 'turtle_control_action'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extensions ['ignore', 'ignore_ament_install']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extension 'ignore'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extension 'ignore_ament_install'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extensions ['colcon_pkg']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extension 'colcon_pkg'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extensions ['colcon_meta']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extension 'colcon_meta'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extensions ['ros']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control_thiago) by extension 'ros'
+[0.737s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control_thiago' with type 'ros.ament_python' and name 'turtle_control_thiago'
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.737s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'action_tutorials_interfaces' in 'src/action_tutorials_interfaces'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'src/py_pubsub'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'src/ros_tutorials/turtlesim'
+[0.810s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtle_control_thiago' in 'src/turtle_control_thiago'
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/thiago/Documentos/Robotica/ros2_ws/install
+[0.819s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'turtle_control_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.939s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_control_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action', 'merge_install': False, 'path': '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action', 'symlink_install': False, 'test_result_base': None}
+[0.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.942s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.942s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action' with build type 'ament_cmake'
+[0.942s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action'
+[0.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action
+[3.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action -DCMAKE_INSTALL_PREFIX=/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action
+[3.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action -- -j2 -l2
+[15.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action -- -j2 -l2
+[15.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action
+[16.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control_action)
+[16.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action
+[16.111s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action' for CMake module files
+[16.112s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action' for CMake config files
+[16.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_action', 'cmake_prefix_path')
+[16.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.ps1'
+[16.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.dsv'
+[16.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.sh'
+[16.119s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib'
+[16.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_action', 'ld_library_path_lib')
+[16.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.ps1'
+[16.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.dsv'
+[16.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.sh'
+[16.122s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/bin'
+[16.122s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/pkgconfig/turtle_control_action.pc'
+[16.122s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/python3.10/site-packages'
+[16.123s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/bin'
+[16.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.ps1'
+[16.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.dsv'
+[16.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.sh'
+[16.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.bash'
+[16.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.zsh'
+[16.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/colcon-core/packages/turtle_control_action)
+[16.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control_action)
+[16.134s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action' for CMake module files
+[16.135s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action' for CMake config files
+[16.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_action', 'cmake_prefix_path')
+[16.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.ps1'
+[16.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.dsv'
+[16.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/cmake_prefix_path.sh'
+[16.140s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib'
+[16.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control_action', 'ld_library_path_lib')
+[16.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.ps1'
+[16.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.dsv'
+[16.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/hook/ld_library_path_lib.sh'
+[16.143s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/bin'
+[16.143s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/pkgconfig/turtle_control_action.pc'
+[16.144s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/python3.10/site-packages'
+[16.145s] Level 1:colcon.colcon_core.environment:checking '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/bin'
+[16.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.ps1'
+[16.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.dsv'
+[16.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.sh'
+[16.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.bash'
+[16.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.zsh'
+[16.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/colcon-core/packages/turtle_control_action)
+[16.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.152s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.199s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thiago/Documentos/Robotica/ros2_ws/install/local_setup.ps1'
+[16.202s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thiago/Documentos/Robotica/ros2_ws/install/_local_setup_util_ps1.py'
+[16.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thiago/Documentos/Robotica/ros2_ws/install/setup.ps1'
+[16.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thiago/Documentos/Robotica/ros2_ws/install/local_setup.sh'
+[16.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thiago/Documentos/Robotica/ros2_ws/install/_local_setup_util_sh.py'
+[16.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thiago/Documentos/Robotica/ros2_ws/install/setup.sh'
+[16.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thiago/Documentos/Robotica/ros2_ws/install/local_setup.bash'
+[16.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thiago/Documentos/Robotica/ros2_ws/install/setup.bash'
+[16.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thiago/Documentos/Robotica/ros2_ws/install/local_setup.zsh'
+[16.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thiago/Documentos/Robotica/ros2_ws/install/setup.zsh'

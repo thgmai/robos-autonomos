@@ -1,0 +1,491 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000376] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000420] (-) JobUnselected: {'identifier': 'turtle_control_thiago'}
+[0.000461] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000508] (turtle_control_action) JobQueued: {'identifier': 'turtle_control_action', 'dependencies': OrderedDict()}
+[0.000558] (turtle_control_action) JobStarted: {'identifier': 'turtle_control_action'}
+[0.024274] (turtle_control_action) JobProgress: {'identifier': 'turtle_control_action', 'progress': 'cmake'}
+[0.027416] (turtle_control_action) JobProgress: {'identifier': 'turtle_control_action', 'progress': 'build'}
+[0.033096] (turtle_control_action) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action', '--', '-j2', '-l2'], 'cwd': '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'thiago'), ('LC_TIME', 'es_UY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('OLDPWD', '/home/thiago/Documentos/Robotica/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_UY.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6035793df5d8d98ec10009b695131bf'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thiago'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-Satellite-L645:@/tmp/.ICE-unix/1484,unix/thiago-Satellite-L645:/tmp/.ICE-unix/1484'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8223a62_e1b4_4f98_adae_f1836152ce0a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_UY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6035793df5d8d98ec10009b695131bf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.097823] (-) TimerEvent: {}
+[0.159772] (turtle_control_action) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197950] (-) TimerEvent: {}
+[0.301295] (-) TimerEvent: {}
+[0.404754] (-) TimerEvent: {}
+[0.506131] (-) TimerEvent: {}
+[0.608764] (-) TimerEvent: {}
+[0.610958] (turtle_control_action) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.708933] (-) TimerEvent: {}
+[0.809662] (-) TimerEvent: {}
+[0.858480] (turtle_control_action) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.872711] (turtle_control_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.890018] (turtle_control_action) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.909859] (-) TimerEvent: {}
+[0.980781] (turtle_control_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.010975] (-) TimerEvent: {}
+[1.111525] (-) TimerEvent: {}
+[1.212933] (-) TimerEvent: {}
+[1.313408] (-) TimerEvent: {}
+[1.414936] (-) TimerEvent: {}
+[1.517105] (-) TimerEvent: {}
+[1.617606] (-) TimerEvent: {}
+[1.718152] (-) TimerEvent: {}
+[1.819366] (turtle_control_action) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.819797] (-) TimerEvent: {}
+[1.922346] (-) TimerEvent: {}
+[2.026041] (-) TimerEvent: {}
+[2.126760] (-) TimerEvent: {}
+[2.231185] (-) TimerEvent: {}
+[2.331783] (-) TimerEvent: {}
+[2.434110] (-) TimerEvent: {}
+[2.443964] (turtle_control_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.534951] (-) TimerEvent: {}
+[2.638315] (-) TimerEvent: {}
+[2.738903] (-) TimerEvent: {}
+[2.839625] (-) TimerEvent: {}
+[2.940552] (-) TimerEvent: {}
+[3.042483] (-) TimerEvent: {}
+[3.143960] (-) TimerEvent: {}
+[3.245312] (-) TimerEvent: {}
+[3.333939] (turtle_control_action) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.346420] (-) TimerEvent: {}
+[3.418082] (turtle_control_action) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.446570] (-) TimerEvent: {}
+[3.499115] (turtle_control_action) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.499609] (turtle_control_action) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.499922] (turtle_control_action) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.549118] (-) TimerEvent: {}
+[3.590985] (turtle_control_action) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.596046] (turtle_control_action) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.608444] (turtle_control_action) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.650977] (-) TimerEvent: {}
+[3.733344] (turtle_control_action) StdoutLine: {'line': b'-- Generating done\n'}
+[3.751975] (-) TimerEvent: {}
+[3.771983] (turtle_control_action) StdoutLine: {'line': b'-- Build files have been written to: /home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action\n'}
+[3.854289] (-) TimerEvent: {}
+[3.926258] (turtle_control_action) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.955965] (-) TimerEvent: {}
+[4.056547] (-) TimerEvent: {}
+[4.157038] (-) TimerEvent: {}
+[4.257451] (-) TimerEvent: {}
+[4.359123] (-) TimerEvent: {}
+[4.459617] (-) TimerEvent: {}
+[4.562133] (-) TimerEvent: {}
+[4.662745] (-) TimerEvent: {}
+[4.763512] (-) TimerEvent: {}
+[4.865939] (-) TimerEvent: {}
+[4.966480] (-) TimerEvent: {}
+[5.066974] (-) TimerEvent: {}
+[5.167442] (-) TimerEvent: {}
+[5.269952] (-) TimerEvent: {}
+[5.370969] (-) TimerEvent: {}
+[5.452437] (turtle_control_action) StdoutLine: {'line': b'[  3%] Built target turtle_control_action__cpp\n'}
+[5.474020] (-) TimerEvent: {}
+[5.488992] (turtle_control_action) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.577260] (-) TimerEvent: {}
+[5.679617] (-) TimerEvent: {}
+[5.781509] (-) TimerEvent: {}
+[5.882513] (-) TimerEvent: {}
+[5.983569] (-) TimerEvent: {}
+[6.084316] (-) TimerEvent: {}
+[6.184957] (-) TimerEvent: {}
+[6.289034] (-) TimerEvent: {}
+[6.389581] (-) TimerEvent: {}
+[6.492599] (-) TimerEvent: {}
+[6.593574] (-) TimerEvent: {}
+[6.694065] (-) TimerEvent: {}
+[6.794607] (-) TimerEvent: {}
+[6.895152] (-) TimerEvent: {}
+[6.995752] (-) TimerEvent: {}
+[7.096326] (-) TimerEvent: {}
+[7.184727] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_generator_c\x1b[0m\n'}
+[7.196495] (-) TimerEvent: {}
+[7.215217] (turtle_control_action) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_generator_c.dir/rosidl_generator_c/turtle_control_action/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[7.296669] (-) TimerEvent: {}
+[7.397217] (-) TimerEvent: {}
+[7.497806] (-) TimerEvent: {}
+[7.581747] (turtle_control_action) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libturtle_control_action__rosidl_generator_c.so\x1b[0m\n'}
+[7.598006] (-) TimerEvent: {}
+[7.682510] (turtle_control_action) StdoutLine: {'line': b'[ 12%] Built target turtle_control_action__rosidl_generator_c\n'}
+[7.698182] (-) TimerEvent: {}
+[7.755031] (turtle_control_action) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_turtle_control_action\n'}
+[7.780761] (turtle_control_action) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.798342] (-) TimerEvent: {}
+[7.898879] (-) TimerEvent: {}
+[7.999434] (-) TimerEvent: {}
+[8.100003] (-) TimerEvent: {}
+[8.200562] (-) TimerEvent: {}
+[8.301308] (-) TimerEvent: {}
+[8.401938] (-) TimerEvent: {}
+[8.502563] (-) TimerEvent: {}
+[8.603098] (-) TimerEvent: {}
+[8.703888] (-) TimerEvent: {}
+[8.746951] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.775423] (turtle_control_action) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_control_action/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.803996] (-) TimerEvent: {}
+[8.904510] (-) TimerEvent: {}
+[9.005068] (-) TimerEvent: {}
+[9.105605] (-) TimerEvent: {}
+[9.206164] (-) TimerEvent: {}
+[9.306715] (-) TimerEvent: {}
+[9.407284] (-) TimerEvent: {}
+[9.507863] (-) TimerEvent: {}
+[9.608431] (-) TimerEvent: {}
+[9.708968] (-) TimerEvent: {}
+[9.809519] (-) TimerEvent: {}
+[9.908539] (turtle_control_action) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_control_action__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.909635] (-) TimerEvent: {}
+[10.001684] (turtle_control_action) StdoutLine: {'line': b'[ 22%] Built target turtle_control_action__rosidl_typesupport_cpp\n'}
+[10.010947] (-) TimerEvent: {}
+[10.026590] (turtle_control_action) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.111118] (-) TimerEvent: {}
+[10.211590] (-) TimerEvent: {}
+[10.312128] (-) TimerEvent: {}
+[10.412648] (-) TimerEvent: {}
+[10.513195] (-) TimerEvent: {}
+[10.613692] (-) TimerEvent: {}
+[10.714203] (-) TimerEvent: {}
+[10.814718] (-) TimerEvent: {}
+[10.915370] (-) TimerEvent: {}
+[11.015989] (-) TimerEvent: {}
+[11.116566] (-) TimerEvent: {}
+[11.163168] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.194720] (turtle_control_action) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_control_action/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[11.216739] (-) TimerEvent: {}
+[11.317282] (-) TimerEvent: {}
+[11.417918] (-) TimerEvent: {}
+[11.518475] (-) TimerEvent: {}
+[11.619040] (-) TimerEvent: {}
+[11.719589] (-) TimerEvent: {}
+[11.820144] (-) TimerEvent: {}
+[11.920685] (-) TimerEvent: {}
+[12.021223] (-) TimerEvent: {}
+[12.121755] (-) TimerEvent: {}
+[12.222439] (-) TimerEvent: {}
+[12.230916] (turtle_control_action) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_control_action__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.322636] (-) TimerEvent: {}
+[12.423250] (-) TimerEvent: {}
+[12.431392] (turtle_control_action) StdoutLine: {'line': b'[ 32%] Built target turtle_control_action__rosidl_typesupport_fastrtps_c\n'}
+[12.458976] (turtle_control_action) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.523416] (-) TimerEvent: {}
+[12.624216] (-) TimerEvent: {}
+[12.724698] (-) TimerEvent: {}
+[12.825213] (-) TimerEvent: {}
+[12.925726] (-) TimerEvent: {}
+[13.026301] (-) TimerEvent: {}
+[13.126799] (-) TimerEvent: {}
+[13.227331] (-) TimerEvent: {}
+[13.327913] (-) TimerEvent: {}
+[13.428522] (-) TimerEvent: {}
+[13.435153] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.466535] (turtle_control_action) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_control_action/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[13.528740] (-) TimerEvent: {}
+[13.604479] (turtle_control_action) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libturtle_control_action__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.628976] (-) TimerEvent: {}
+[13.686190] (turtle_control_action) StdoutLine: {'line': b'[ 41%] Built target turtle_control_action__rosidl_typesupport_introspection_c\n'}
+[13.711073] (turtle_control_action) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.729126] (-) TimerEvent: {}
+[13.829624] (-) TimerEvent: {}
+[13.930146] (-) TimerEvent: {}
+[14.030674] (-) TimerEvent: {}
+[14.131255] (-) TimerEvent: {}
+[14.231794] (-) TimerEvent: {}
+[14.332336] (-) TimerEvent: {}
+[14.432886] (-) TimerEvent: {}
+[14.533436] (-) TimerEvent: {}
+[14.633969] (-) TimerEvent: {}
+[14.654223] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_c\x1b[0m\n'}
+[14.683750] (turtle_control_action) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_control_action/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[14.734160] (-) TimerEvent: {}
+[14.822085] (turtle_control_action) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_control_action__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.834339] (-) TimerEvent: {}
+[14.922559] (turtle_control_action) StdoutLine: {'line': b'[ 51%] Built target turtle_control_action__rosidl_typesupport_c\n'}
+[14.934528] (-) TimerEvent: {}
+[14.949432] (turtle_control_action) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.034686] (-) TimerEvent: {}
+[15.135193] (-) TimerEvent: {}
+[15.235989] (-) TimerEvent: {}
+[15.336474] (-) TimerEvent: {}
+[15.436978] (-) TimerEvent: {}
+[15.537480] (-) TimerEvent: {}
+[15.637979] (-) TimerEvent: {}
+[15.738472] (-) TimerEvent: {}
+[15.840013] (-) TimerEvent: {}
+[15.941592] (-) TimerEvent: {}
+[16.029435] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[16.041780] (-) TimerEvent: {}
+[16.062755] (turtle_control_action) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_control_action/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[16.141964] (-) TimerEvent: {}
+[16.242511] (-) TimerEvent: {}
+[16.343071] (-) TimerEvent: {}
+[16.443608] (-) TimerEvent: {}
+[16.544154] (-) TimerEvent: {}
+[16.644686] (-) TimerEvent: {}
+[16.745424] (-) TimerEvent: {}
+[16.845968] (-) TimerEvent: {}
+[16.946503] (-) TimerEvent: {}
+[17.047271] (-) TimerEvent: {}
+[17.147816] (-) TimerEvent: {}
+[17.248391] (-) TimerEvent: {}
+[17.348969] (-) TimerEvent: {}
+[17.449524] (-) TimerEvent: {}
+[17.502508] (turtle_control_action) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_control_action__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.549710] (-) TimerEvent: {}
+[17.650336] (-) TimerEvent: {}
+[17.705657] (turtle_control_action) StdoutLine: {'line': b'[ 61%] Built target turtle_control_action__rosidl_typesupport_fastrtps_cpp\n'}
+[17.733363] (turtle_control_action) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.750497] (-) TimerEvent: {}
+[17.850984] (-) TimerEvent: {}
+[17.951512] (-) TimerEvent: {}
+[18.051975] (-) TimerEvent: {}
+[18.152476] (-) TimerEvent: {}
+[18.253181] (-) TimerEvent: {}
+[18.354376] (-) TimerEvent: {}
+[18.454909] (-) TimerEvent: {}
+[18.555424] (-) TimerEvent: {}
+[18.656034] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.656447] (-) TimerEvent: {}
+[18.690686] (turtle_control_action) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_control_action/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[18.756652] (-) TimerEvent: {}
+[18.857245] (-) TimerEvent: {}
+[18.957896] (-) TimerEvent: {}
+[19.058428] (-) TimerEvent: {}
+[19.158978] (-) TimerEvent: {}
+[19.259520] (-) TimerEvent: {}
+[19.360058] (-) TimerEvent: {}
+[19.460758] (-) TimerEvent: {}
+[19.561342] (-) TimerEvent: {}
+[19.661902] (-) TimerEvent: {}
+[19.762435] (-) TimerEvent: {}
+[19.862976] (-) TimerEvent: {}
+[19.963507] (-) TimerEvent: {}
+[20.064011] (-) TimerEvent: {}
+[20.164809] (-) TimerEvent: {}
+[20.201916] (turtle_control_action) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_control_action__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.265233] (-) TimerEvent: {}
+[20.365923] (-) TimerEvent: {}
+[20.391576] (turtle_control_action) StdoutLine: {'line': b'[ 70%] Built target turtle_control_action__rosidl_typesupport_introspection_cpp\n'}
+[20.466937] (-) TimerEvent: {}
+[20.567477] (-) TimerEvent: {}
+[20.667953] (-) TimerEvent: {}
+[20.768439] (-) TimerEvent: {}
+[20.868965] (-) TimerEvent: {}
+[20.969457] (-) TimerEvent: {}
+[21.069946] (-) TimerEvent: {}
+[21.079376] (turtle_control_action) StdoutLine: {'line': b'running egg_info\n'}
+[21.081292] (turtle_control_action) StdoutLine: {'line': b'writing turtle_control_action.egg-info/PKG-INFO\n'}
+[21.081631] (turtle_control_action) StdoutLine: {'line': b'writing dependency_links to turtle_control_action.egg-info/dependency_links.txt\n'}
+[21.082084] (turtle_control_action) StdoutLine: {'line': b'writing top-level names to turtle_control_action.egg-info/top_level.txt\n'}
+[21.086936] (turtle_control_action) StdoutLine: {'line': b"reading manifest file 'turtle_control_action.egg-info/SOURCES.txt'\n"}
+[21.088563] (turtle_control_action) StdoutLine: {'line': b"writing manifest file 'turtle_control_action.egg-info/SOURCES.txt'\n"}
+[21.159718] (turtle_control_action) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_turtle_control_action_egg\n'}
+[21.170141] (-) TimerEvent: {}
+[21.209230] (turtle_control_action) StdoutLine: {'line': b'[ 70%] Built target turtle_control_action\n'}
+[21.254444] (turtle_control_action) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.270287] (-) TimerEvent: {}
+[21.370795] (-) TimerEvent: {}
+[21.471516] (-) TimerEvent: {}
+[21.572020] (-) TimerEvent: {}
+[21.672540] (-) TimerEvent: {}
+[21.773050] (-) TimerEvent: {}
+[21.873534] (-) TimerEvent: {}
+[21.974605] (-) TimerEvent: {}
+[22.075271] (-) TimerEvent: {}
+[22.175755] (-) TimerEvent: {}
+[22.276240] (-) TimerEvent: {}
+[22.376707] (-) TimerEvent: {}
+[22.477206] (-) TimerEvent: {}
+[22.577705] (-) TimerEvent: {}
+[22.678236] (-) TimerEvent: {}
+[22.778890] (-) TimerEvent: {}
+[22.879407] (-) TimerEvent: {}
+[22.979937] (-) TimerEvent: {}
+[23.080458] (-) TimerEvent: {}
+[23.180940] (-) TimerEvent: {}
+[23.281495] (-) TimerEvent: {}
+[23.382108] (-) TimerEvent: {}
+[23.437869] (turtle_control_action) StdoutLine: {'line': b'[ 74%] Built target turtle_control_action__py\n'}
+[23.460652] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_generator_py\x1b[0m\n'}
+[23.482281] (-) TimerEvent: {}
+[23.486967] (turtle_control_action) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_generator_py.dir/rosidl_generator_py/turtle_control_action/action/_navigate_s.c.o\x1b[0m\n'}
+[23.584414] (-) TimerEvent: {}
+[23.685229] (-) TimerEvent: {}
+[23.785835] (-) TimerEvent: {}
+[23.886673] (-) TimerEvent: {}
+[23.961010] (turtle_control_action) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_control_action/libturtle_control_action__rosidl_generator_py.so\x1b[0m\n'}
+[23.986899] (-) TimerEvent: {}
+[24.074481] (turtle_control_action) StdoutLine: {'line': b'[ 80%] Built target turtle_control_action__rosidl_generator_py\n'}
+[24.087096] (-) TimerEvent: {}
+[24.099799] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[24.139950] (turtle_control_action) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[24.187260] (-) TimerEvent: {}
+[24.287782] (-) TimerEvent: {}
+[24.388355] (-) TimerEvent: {}
+[24.427044] (turtle_control_action) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_control_action/turtle_control_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.488556] (-) TimerEvent: {}
+[24.526118] (turtle_control_action) StdoutLine: {'line': b'[ 87%] Built target turtle_control_action__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.553488] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[24.588770] (-) TimerEvent: {}
+[24.590957] (turtle_control_action) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[24.688956] (-) TimerEvent: {}
+[24.789521] (-) TimerEvent: {}
+[24.890186] (-) TimerEvent: {}
+[24.982286] (turtle_control_action) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_control_action/turtle_control_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.990365] (-) TimerEvent: {}
+[25.090919] (-) TimerEvent: {}
+[25.097100] (turtle_control_action) StdoutLine: {'line': b'[ 93%] Built target turtle_control_action__rosidl_typesupport_introspection_c__pyext\n'}
+[25.121402] (turtle_control_action) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_action__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[25.152242] (turtle_control_action) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/turtle_control_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[25.191097] (-) TimerEvent: {}
+[25.291620] (-) TimerEvent: {}
+[25.392535] (-) TimerEvent: {}
+[25.444676] (turtle_control_action) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_control_action/turtle_control_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.492724] (-) TimerEvent: {}
+[25.544093] (turtle_control_action) StdoutLine: {'line': b'[100%] Built target turtle_control_action__rosidl_typesupport_c__pyext\n'}
+[25.576571] (turtle_control_action) CommandEnded: {'returncode': 0}
+[25.579153] (turtle_control_action) JobProgress: {'identifier': 'turtle_control_action', 'progress': 'install'}
+[25.593015] (-) TimerEvent: {}
+[25.607228] (turtle_control_action) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action'], 'cwd': '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'es:en'), ('USER', 'thiago'), ('LC_TIME', 'es_UY.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/lib:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/thiago'), ('OLDPWD', '/home/thiago/Documentos/Robotica/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_UY.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1484'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6035793df5d8d98ec10009b695131bf'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'thiago'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'thiago'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/thiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/thiago-Satellite-L645:@/tmp/.ICE-unix/1484,unix/thiago-Satellite-L645:/tmp/.ICE-unix/1484'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_UY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c8223a62_e1b4_4f98_adae_f1836152ce0a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_UY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.314'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_UY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_UY.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_UY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/thiago/Documentos/Robotica/ros2_ws/build/turtle_control_action'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f6035793df5d8d98ec10009b695131bf'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_UY.UTF-8'), ('LC_PAPER', 'es_UY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thiago/Documentos/Robotica/ros2_ws/install/turtlesim:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action:/home/thiago/Documentos/Robotica/ros2_ws/install/action_tutorials_interfaces:/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_thiago:/home/thiago/Documentos/Robotica/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[25.628777] (turtle_control_action) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.629591] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/ament_index/resource_index/rosidl_interfaces/turtle_control_action\n'}
+[25.630028] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.632143] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.633261] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/navigate.h\n'}
+[25.633586] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.634101] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__functions.h\n'}
+[25.634531] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__type_support.h\n'}
+[25.634803] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__struct.h\n'}
+[25.635280] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__functions.c\n'}
+[25.636356] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg\n'}
+[25.636611] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.636834] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/library_path.sh\n'}
+[25.637334] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/library_path.dsv\n'}
+[25.637650] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_generator_c.so\n'}
+[25.638068] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_generator_c.so" to ""\n'}
+[25.638513] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.638748] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.639154] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.639394] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[25.639691] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg\n'}
+[25.639939] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.640281] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_fastrtps_c.so\n'}
+[25.640783] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.641268] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.641534] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.641811] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.642251] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[25.642634] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__type_support.c\n'}
+[25.642917] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg\n'}
+[25.643268] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.643478] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_introspection_c.so\n'}
+[25.644153] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.644495] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_c.so\n'}
+[25.645478] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_c.so" to ""\n'}
+[25.645829] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.646141] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.646487] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/navigate.hpp\n'}
+[25.646754] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.647019] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__struct.hpp\n'}
+[25.647355] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__type_support.hpp\n'}
+[25.647576] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__traits.hpp\n'}
+[25.648735] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__builder.hpp\n'}
+[25.649159] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg\n'}
+[25.649473] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.649793] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.650122] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.650356] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.650597] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/dds_fastrtps\n'}
+[25.650802] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.651400] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg\n'}
+[25.651785] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.652103] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.652466] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.652708] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action\n'}
+[25.652984] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action\n'}
+[25.653288] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail\n'}
+[25.653586] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__type_support.cpp\n'}
+[25.653810] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/include/turtle_control_action/turtle_control_action/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.654090] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_introspection_cpp.so\n'}
+[25.654489] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.654901] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_cpp.so\n'}
+[25.655887] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_typesupport_cpp.so" to ""\n'}
+[25.656229] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/pythonpath.sh\n'}
+[25.656444] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/pythonpath.dsv\n'}
+[25.656741] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action-0.0.0-py3.10.egg-info\n'}
+[25.657014] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.657293] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.657601] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.657958] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.658337] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action\n'}
+[25.658666] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/__init__.py\n'}
+[25.659063] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action\n'}
+[25.659335] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action/__init__.py\n'}
+[25.659638] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action/_navigate.py\n'}
+[25.660014] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action/_navigate_s.c\n'}
+[25.660334] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.660953] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_c.c\n'}
+[25.661387] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.661868] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/libturtle_control_action__rosidl_generator_py.so\n'}
+[25.662315] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.662745] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/_turtle_control_action_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[25.663332] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.693586] (-) TimerEvent: {}
+[25.770681] (turtle_control_action) StdoutLine: {'line': b"Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action'...\n"}
+[25.771202] (turtle_control_action) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/__init__.py'...\n"}
+[25.771474] (turtle_control_action) StdoutLine: {'line': b"Listing '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action'...\n"}
+[25.771736] (turtle_control_action) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action/__init__.py'...\n"}
+[25.772047] (turtle_control_action) StdoutLine: {'line': b"Compiling '/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/action/_navigate.py'...\n"}
+[25.788422] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.789692] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.790429] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.791869] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.792195] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.793053] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/local/lib/python3.10/dist-packages/turtle_control_action/turtle_control_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.793363] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_generator_py.so\n'}
+[25.793655] (-) TimerEvent: {}
+[25.794226] (turtle_control_action) StdoutLine: {'line': b'-- Set runtime path of "/home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/lib/libturtle_control_action__rosidl_generator_py.so" to ""\n'}
+[25.794512] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/action/Navigate.idl\n'}
+[25.794758] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/action/Navigate.action\n'}
+[25.795088] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/ament_index/resource_index/package_run_dependencies/turtle_control_action\n'}
+[25.795443] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/ament_index/resource_index/parent_prefix_path/turtle_control_action\n'}
+[25.795607] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/ament_prefix_path.sh\n'}
+[25.795935] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/ament_prefix_path.dsv\n'}
+[25.796129] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/path.sh\n'}
+[25.796426] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/environment/path.dsv\n'}
+[25.796665] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/local_setup.bash\n'}
+[25.796846] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/local_setup.sh\n'}
+[25.797154] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/local_setup.zsh\n'}
+[25.797327] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/local_setup.dsv\n'}
+[25.797494] (turtle_control_action) StdoutLine: {'line': b'-- Installing: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.dsv\n'}
+[25.797763] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/ament_index/resource_index/packages/turtle_control_action\n'}
+[25.798031] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_generator_cExport.cmake\n'}
+[25.798363] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_generator_cExport-noconfig.cmake\n'}
+[25.798668] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[25.799013] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[25.799250] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_introspection_cExport.cmake\n'}
+[25.799545] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[25.799884] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_cExport.cmake\n'}
+[25.800338] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[25.800601] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_generator_cppExport.cmake\n'}
+[25.801141] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[25.801560] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[25.801997] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[25.802208] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[25.802429] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_cppExport.cmake\n'}
+[25.802715] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_action__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[25.802951] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_generator_pyExport.cmake\n'}
+[25.803166] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/export_turtle_control_action__rosidl_generator_pyExport-noconfig.cmake\n'}
+[25.803357] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/rosidl_cmake-extras.cmake\n'}
+[25.803551] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.803730] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.803933] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.804298] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.804470] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[25.804639] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[25.804822] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_actionConfig.cmake\n'}
+[25.806300] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/cmake/turtle_control_actionConfig-version.cmake\n'}
+[25.806707] (turtle_control_action) StdoutLine: {'line': b'-- Up-to-date: /home/thiago/Documentos/Robotica/ros2_ws/install/turtle_control_action/share/turtle_control_action/package.xml\n'}
+[25.807876] (turtle_control_action) CommandEnded: {'returncode': 0}
+[25.879653] (turtle_control_action) JobEnded: {'identifier': 'turtle_control_action', 'rc': 0}
+[25.881241] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+{
+  "package_name": "turtle_control_action",
+  "non_idl_tuples": [
+    "/home/thiago/Documentos/Robotica/ros2_ws/src/turtle_control_action:action/Navigate.action"
+  ]
+}

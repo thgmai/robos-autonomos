@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtle_control_action/action/Navigate.action
+// generated code does not contain a copyright notice
+
+
+module turtle_control_action {
+  module action {
+    struct Navigate_Goal {
+      float goal_x;
+
+      float goal_y;
+    };
+    struct Navigate_Result {
+      boolean success;
+
+      float current_x;
+
+      float current_y;
+    };
+    struct Navigate_Feedback {
+      float current_x;
+
+      float current_y;
+
+      float distance_to_goal;
+    };
+  };
+};
